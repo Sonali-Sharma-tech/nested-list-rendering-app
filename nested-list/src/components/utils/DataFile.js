@@ -27,11 +27,39 @@ const backendData = [
         children: [
           {
             id: "10",
-            name: "Summer Picnic"
+            name: "Summer Picnic",
+            children: [
+              {
+                id: "14",
+                name: "Summer Picnic Child"
+              },
+              {
+                id: "15",
+                name: "Child Valentine's Day Party"
+              },
+              {
+                id: "16",
+                name: "Child New Year's Party"
+              }
+            ]
           },
           {
             id: "11",
-            name: "Valentine's Day Party"
+            name: "Valentine's Day Party",
+            children: [
+              {
+                id: "14",
+                name: "Child-14 Valentine's Day Party"
+              },
+              {
+                id: "15",
+                name: "Child-15 Valentine's Day Party"
+              },
+              {
+                id: "16",
+                name: "Child -16 New Year's Party"
+              }
+            ]
           },
           {
             id: "12",
